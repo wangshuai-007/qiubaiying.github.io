@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: wangshuai_007@qq.com
 description: "I am who I am"
 keyword: " Wangshuai Blog, 王帅的博客, Wangshuai, 王帅, .NET"
-url: "https://blog-mirror.wangshuai.app/"          # your host, for absolute URL
+url: "https://blog.wangshuai.app/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/wangshuai-007/qiubaiying.github.io" # you code repository
 
@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 17585f4ed771ca5b29ea                            #生成的clientID
   clientSecret: 7349dec104656ed06d900eb8f3f8dd5d2b0b1f2c    #生成的clientSecret
-  repo: wangshuai-007.github.io    #仓库名称
+  repo: blog    #仓库名称
   owner: wangshuai-007    #github用户名
   admin: wangshuai-007
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
