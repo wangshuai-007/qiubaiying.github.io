@@ -4,7 +4,6 @@ title:      Devexpress自定义导出(Export)选定行数据到Excel简易版
 subtitle:   使用自带GridView.ExportToXls方法快速导出
 date:       2017-09-19
 author:     王帅
-header-img: img/导出选中行.png
 catalog: true
 tags:
     - Devexpress
@@ -63,6 +62,5 @@ catch (Exception ex)
 ## 效果图
 
 devexpress导出选中行效果图
-![效果图](\img\..\导出选中行.png)
+![效果图](img/导出选中行.png)
 
-![导出选中行](D:\学习\博客\blog\img\导出选中行.png)
