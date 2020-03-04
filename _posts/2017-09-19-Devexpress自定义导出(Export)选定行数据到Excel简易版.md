@@ -9,6 +9,7 @@ tags:
     - Devexpress
     - Excel
     - winform
+typora-root-url: ..
 ---
 ## 引言
 
@@ -62,5 +63,5 @@ catch (Exception ex)
 ## 效果图
 
 devexpress导出选中行效果图
-![效果图](img/导出选中行.png)
+![效果图](/img/导出选中行.png)
 
