@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      官方支持，解决国内docker pull mcr.microsoft.com 镜像过慢的问题
+title:      官方支持,解决国内docker pull mcr.microsoft.com 镜像过慢的问题
 subtitle:   使用Azure提供的 mcr.azk8s.cn 国内官方镜像仓库pull dotnet 镜像
 date:       2020-3-9
 author:     王帅
 catalog: true
 tags:
     - docker
-    - mirror    
-	- docker-images
+    - mirror
+    - docker-images
 typora-root-url: ..
 
 ---

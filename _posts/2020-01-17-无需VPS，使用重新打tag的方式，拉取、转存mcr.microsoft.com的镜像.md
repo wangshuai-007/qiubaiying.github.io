@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      无需VPS，使用重新打tag的方式，拉取、转存mcr.microsoft.com的镜像
-subtitle:   使用travis-ci的`Trigger build`功能一键转存
+title:      无需VPS,使用重新打tag的方式 拉取、转存mcr.microsoft.com的镜像
+subtitle:   使用travis-ci的Trigger build功能一键转存
 date:       2020-1-17
 author:     王帅
 catalog: true
@@ -10,7 +10,7 @@ tags:
     - mirror
     - tag
     - travis-ci
-	- docker-images
+    - docker-images
 typora-root-url: ..
 ---
 
