@@ -5,6 +5,7 @@
     {% for post in site.posts %}
     <url>
         <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
+        <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
     </url>
     {% endfor %}
 
