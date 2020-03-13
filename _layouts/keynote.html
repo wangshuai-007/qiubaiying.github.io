@@ -87,6 +87,7 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
+			
 
                 <!-- Gitalk 评论 start  -->
                 {% if site.gitalk.enable %}
@@ -112,9 +113,13 @@ layout: default
                 {% if site.disqus.enable %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread">
-
-                    </div>
+                   	<script src="https://utteranc.es/client.js"
+					repo="wangshuai-007/BlogComments"
+					issue-term="pathname"
+					theme="github-light"
+					crossorigin="anonymous"
+					async>
+				</script>
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}

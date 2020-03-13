@@ -13,25 +13,23 @@ typora-root-url: ..
 
 ---
 
+## 引言
+
 Fastreport默认使用`[]`标识变量及表达式，如果你显示的文本中有方括号就会报错
 
 ```c#
-   FastReport.TextObjectBase.CalcAndFormatExpression(String expression, Int32 expressionIndex)
+    FastReport.TextObjectBase.CalcAndFormatExpression(String expression,Int32 expressionIndex)
     FastReport.TextObject.GetData()
     FastReport.BandBase.GetData()
-    FastReport.Engine.ReportEngine.PrepareBand(BandBase band, Boolean getData)
-    FastReport.Engine.ReportEngine.ShowBandToPreparedPages(BandBase band, Boolean getData)
+    FastReport.Engine.ReportEngine.PrepareBand(BandBase band, Boolean getData)        	FastReport.Engine.ReportEngine.ShowBandToPreparedPages(BandBase band, Boolean getData)
     FastReport.Engine.ReportEngine.ShowBand(BandBase band, Boolean getData)
     FastReport.Engine.ReportEngine.ShowDataBand(DataBand dataBand, Int32 rowCount)
     FastReport.Engine.ReportEngine.RunDataBand(DataBand dataBand, Int32 rowCount, Boolean keepFirstRow, Boolean keepLastRow)
     FastReport.Engine.ReportEngine.RunDataBand(DataBand dataBand)
-    FastReport.Engine.ReportEngine.RunBands(BandCollection bands)
-    FastReport.Engine.ReportEngine.RenderOuterSubreports(BandBase parentBand)
+    FastReport.Engine.ReportEngine.RunBands(BandCollection bands)       FastReport.Engine.ReportEngine.RenderOuterSubreports(BandBase parentBand)
     FastReport.Engine.ReportEngine.ShowBand(BandBase band, Boolean getData)
     FastReport.Engine.ReportEngine.ShowDataBand(DataBand dataBand, Int32 rowCount)
-    FastReport.Engine.ReportEngine.RunDataBand(DataBand dataBand, Int32 rowCount, Boolean keepFirstRow, Boolean keepLastRow)
-    FastReport.Engine.ReportEngine.ShowGroupTree(GroupTreeItem root)
-   FastReport.Engine.ReportEngine.ShowGroupTree(GroupTreeItem root)
+    FastReport.Engine.ReportEngine.RunDataBand(DataBand dataBand, Int32 rowCount, Boolean keepFirstRow, Boolean keepLastRow)    FastReport.Engine.ReportEngine.ShowGroupTree(GroupTreeItem root)     FastReport.Engine.ReportEngine.ShowGroupTree(GroupTreeItem root)
     FastReport.Engine.ReportEngine.RunGroup(GroupHeaderBand groupBand)
     FastReport.Engine.ReportEngine.RunBands(BandCollection bands)
     FastReport.Engine.ReportEngine.RunReportPage(ReportPage page)

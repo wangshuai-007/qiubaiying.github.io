@@ -61,7 +61,7 @@ disqus_username: wangshuai
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  #enable: false    #是否开启Gitalk评论
   clientID: 17585f4ed771ca5b29ea                            #生成的clientID
   clientSecret: 7349dec104656ed06d900eb8f3f8dd5d2b0b1f2c    #生成的clientSecret
   repo: blog    #仓库名称

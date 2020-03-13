@@ -45,7 +45,8 @@ typora-root-url: ..
 * 其次，访问[travis-ci](https://travis-ci.com/)，并授权其对自己git库的访问权限(**随便什么仓库都行，因为我们并不需要使用里面的代码**)
 * 参照腾讯云提供的镜像使用指引，编写`.travis.yml`脚本文件
 ![image.png](/img/qcloud_images_guid.png)
-我的脚本文件如下
+我的脚本文件如下：
+
 ```bash
 language: bash
 services:
@@ -65,8 +66,8 @@ after_success:
   - sudo docker tag mcr.microsoft.com/dotnet/core/aspnet:2.2 ccr.ccs.tencentyun.com/dotnet-core/aspnet:2.2
   - sudo docker push ccr.ccs.tencentyun.com/dotnet-core/sdk:2.2.401
   - sudo docker push ccr.ccs.tencentyun.com/dotnet-core/aspnet:2.2
-
 ```
+
 * 在[travis-ci](https://travis-ci.com/)的首页上，任意选择一个仓库，然后在`More Options`→`Trigger build`的`CUSTOM CONFIG`中粘贴写好的`.travis.yml`脚本并点击`Trigger custom build`
 ![image.png](/img/travis-ci_Trigger_Custom_Build.png)
 * 稍等几分钟即可在`job log`中看到脚本的执行结果
