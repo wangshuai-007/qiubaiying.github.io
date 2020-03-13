@@ -25,7 +25,7 @@ typora-root-url: ..
 
 打开frx文件，选择file→Save As→保存类型→C#file
 
-![saveAsC#](/img/fastreport_saveAsc#file.png)
+![saveAsC#](/img/fastreport_saveAsCSharpfile.png)
 
 生成的文件可能有错误，删除无效的引用后一般就可以编译通过了
 
