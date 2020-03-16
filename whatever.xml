@@ -1,5 +1,6 @@
 ---
 # http://www.independent-software.com/generating-a-sitemap-xml-with-jekyll-without-a-plugin.html
+# https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
 layout: null
 sitemap:
   exclude: 'yes'
