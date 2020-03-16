@@ -18,7 +18,7 @@ typora-root-url: ..
 
 * 返回0
 
-参考官方文档[**Reference to system variables**](https://www.fast-report.com/documentation/UserManFrNET-en/index.html?usesystemvariablesinexpressions.htm)，如果`Report.GetVariableValue("TotalPages")`总是返回0，那你应该在`Report`→`Options`中设置**Double Pass**
+参考官方文档[**Reference to system variables**](https://www.fast-report.com/documentation/UserManFrNET-en/index.html?usesystemvariablesinexpressions.htm)和[The TOTALPAGES variable always returns 0.](https://www.fast-report.com/en/faq/3/24/)，如果`Report.GetVariableValue("TotalPages")`总是返回0，那你应该在`Report`→`Options`中设置**Double Pass**
 
 ![image-20200316175041619](/img/fastreport_doublepass.png)
 
