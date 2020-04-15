@@ -23,7 +23,7 @@ typora-root-url: ..
 
 比如最近想要部署私有ExceptionLess服务，它的dockerfile使用了`mcr.microsoft.com/dotnet/core/sdk:2.2.401`和`mcr.microsoft.com/dotnet/core/aspnet:2.2`，这两个镜像拉取非常慢，只能使用手动`tag`的方式来解决。
 
-另外，本人在腾讯云中创建了`dotnet-core`命名空间，源自``mcr.microsoft.com`可直接使用`ccr.ccs.tencentyun.com/dotnet-core/runtime`
+另外，本人在腾讯云中创建了`dotnet-core`命名空间，源自`mcr.microsoft.com`可直接使用`ccr.ccs.tencentyun.com/dotnet-core/runtime`
 
 ![image-20200415142923048](/img/tencenyun_aspnet_core_repository)
 
