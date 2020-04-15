@@ -150,9 +150,7 @@ after_success:
 
 * ![image.png](/img/travis-ci_wait_job_result.png)
 
-
-
- ### 参考链接
+### 参考链接
 
 * [push-image](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/push-image?view=azure-devops)
 
