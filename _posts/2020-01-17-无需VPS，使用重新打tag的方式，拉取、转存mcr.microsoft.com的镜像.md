@@ -148,7 +148,7 @@ after_success:
 
 这里并不会立即出结果，图示是因为images已经存在于`ccr.ccs.tencentyun.com`中了，所以给人以速度很快的假象
 
-* ![image.png](/img/travis-ci_wait_job_result.png)
+![image.png](/img/travis-ci_wait_job_result.png)
 
 ### 参考链接
 
