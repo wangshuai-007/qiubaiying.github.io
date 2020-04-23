@@ -25,7 +25,7 @@ typora-root-url: ..
 
 另外，本人在腾讯云中创建了`dotnet-core`命名空间，源自`mcr.microsoft.com`可直接使用`ccr.ccs.tencentyun.com/dotnet-core/runtime`
 
-![image-20200415142923048](/img/tencenyun_aspnet_core_repository)
+![image-20200415142923048](/img/tencenyun_aspnet_core_repository.png)
 
 ## 解决办法
 
@@ -140,7 +140,7 @@ after_success:
 
 * 在[travis-ci](https://travis-ci.com/)的首页上，任意选择一个仓库，然后在`More Options`→`Settings`里面添加docker登陆的用户名密码环境变量`DOCKER_USERNAME`和`DOCKER_PASSWORD`
 
-![image-20200410113527361](/img/travis-ci_setEnv)
+![image-20200410113527361](/img/travis-ci_setEnv.png)
 
 * 在`More Options`→`Trigger build`的`CUSTOM CONFIG`中粘贴写好的`.travis.yml`脚本并点击`Trigger custom build`
 ![image.png](/img/travis-ci_Trigger_Custom_Build.png)
