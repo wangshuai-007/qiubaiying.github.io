@@ -21,7 +21,7 @@ int counter = 0;
  {
      if (counter >= 20)
      {
-         Engine.StartNewPage();
+         Engine.StartNewPage();//打印到新的页面
          counter = 0;
      }
      counter++;
