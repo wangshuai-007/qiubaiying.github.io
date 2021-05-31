@@ -8,7 +8,7 @@ catalog: true
 tags:
     - devexpress
     - winfrom
-	- report
+    - report
     - XtraReport
 typora-root-url: ..
 ---
