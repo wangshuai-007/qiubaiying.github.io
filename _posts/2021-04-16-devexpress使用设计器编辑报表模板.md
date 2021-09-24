@@ -80,7 +80,5 @@ private void Form1_Load(object sender, EventArgs e)
 * [https://docs.devexpress.com/XtraReports/2666/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/store-report-layouts-and-documents/load-report-layouts](https://docs.devexpress.com/XtraReports/2666/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/store-report-layouts-and-documents/load-report-layouts)
 * [https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.ReportDesignTool.ShowRibbonDesigner](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.ReportDesignTool.ShowRibbonDesigner)
 
-* 设计器demo地址：
-
-[https://github.com/wangshuai-007/BlogsSample/tree/master/DevReportDesigner](https://github.com/wangshuai-007/BlogsSample/tree/master/DevReportDesigner)
+* 设计器demo地址：[https://github.com/wangshuai-007/BlogsSample/tree/master/DevReportDesigner](https://github.com/wangshuai-007/BlogsSample/tree/master/DevReportDesigner)
 
