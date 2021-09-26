@@ -23,7 +23,7 @@ typora-root-url: ..
 
 要想实现添加/删除功能，需要继承[`UITypeEditor`](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.design.uitypeeditor?view=netframework-4.7.2&f1url=%3FappId%3DDev16IDEF1%26l%3DEN-US%26k%3Dk(System.Drawing.Design.UITypeEditor);k(TargetFrameworkMoniker-.NETFramework,Version%253Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue)实现一个自定义编辑器
 
-#### 解决方案
+### 解决方案
 
 Google之后发现已经有人实现了这一功能：[GenericDictUiTypeEditor](https://github.com/TechSmith/GenericDictUiTypeEditor)
 

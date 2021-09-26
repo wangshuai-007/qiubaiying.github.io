@@ -23,7 +23,7 @@ typora-root-url: ..
 
 从图中不难发现，List是可以直接编辑`Capacity`属性的，那可以直接把`Course`对象变成List的成员脱离集合编辑器来编辑吗？
 
-#### 解决方案
+### 解决方案
 
 答案当然是可以的，通过观察可以发现，[`PropertyGridControl`](https://docs.devexpress.com/WindowsForms/119885/controls-and-libraries/property-grid)可展开编辑的就是Object，所以只需把集合中的成员映射为List中的Object即可，[`PropertyGrid`](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.propertygrid)已经有相应的解决方案了。
 
