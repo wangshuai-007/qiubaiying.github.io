@@ -18,7 +18,7 @@ typora-root-url: ..
 
 [`PropertyGridControl`](https://docs.devexpress.com/WindowsForms/119885/controls-and-libraries/property-grid)有两种视图模式([ActiveViewType](https://docs.devexpress.com/WindowsForms/DevExpress.XtraVerticalGrid.PropertyGridControl.ActiveViewType))，经典和office
 
-如果使用office绑定一个前文：[devexpress如何在PropertyGridControl中直接编辑集合成员](/2021/09/26/devexpress如何在PropertyGridControl中直接编辑集合成员/)中的对象结果就是这样:
+如果使用office视图（经典视图为Grid展示方式，因此无法隐藏，只能自定义[ExpandableObjectConverter](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.expandableobjectconverter?view=netframework-4.7.2&f1url=%3FappId%3DDev16IDEF1%26l%3DEN-US%26k%3Dk(System.ComponentModel.ExpandableObjectConverter);k(TargetFrameworkMoniker-.NETFramework,Version%253Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue)，具体可参考[CourseConverter](https://github.com/wangshuai-007/BlogsSample/blob/daf39bab640c7fdd4b8a5504ed64c4d9b1368f97/DevPropertyGridControlExpandCollection/DevPropertyGridControlExpandCollection/Student.cs#L123)）绑定一个前文：[devexpress如何在PropertyGridControl中直接编辑集合成员](/2021/09/26/devexpress如何在PropertyGridControl中直接编辑集合成员/)中的对象结果就是这样:
 
 ![office view](/img/dev_PropertyGridControl_customCollectionExpand_officeView.png)
 

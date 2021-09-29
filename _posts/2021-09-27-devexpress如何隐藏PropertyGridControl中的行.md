@@ -22,7 +22,7 @@ typora-root-url: ..
 
 假如我现在只需要显示`Course.Id=2`的`DicClassRoomId_Name`栏位，查看[Tree Traversal](https://docs.devexpress.com/WindowsForms/479/controls-and-libraries/vertical-grid/data-layout-records-rows-and-cells/rows/tree-traversal)可知,可以通过[VGridRowsIterator.DoOperation](https://docs.devexpress.com/WindowsForms/DevExpress.XtraVerticalGrid.Rows.VGridRowsIterator.DoOperation(DevExpress.XtraVerticalGrid.Rows.RowOperation)) 方法遍历整个树达到自定义行内容的功能。
 
-为此需要实现一个[RowOperation](https://docs.devexpress.com/WindowsForms/DevExpress.XtraVerticalGrid.Rows.RowOperation) ，完整代码在文末
+为此需要实现一个[RowOperation](https://docs.devexpress.com/WindowsForms/DevExpress.XtraVerticalGrid.Rows.RowOperation) (完整代码在文末)
 
 ```c#
 public class SetDicRowVisibleRowOperation : DevExpress.XtraVerticalGrid.Rows.RowOperation
@@ -65,7 +65,7 @@ private void Form1_Load(object sender, EventArgs e)
 }
 ```
 
-由于上一篇文章[devexpress如何在PropertyGridControl中直接编辑集合成员](https://blog.wangshuai.app/2021/09/26/devexpress如何在PropertyGridControl中直接编辑集合成员/)的影响，`FieldName`发生了变化，此处根据`PropertyDescriptor`的逻辑生成了`FieldName`。
+由于上一篇文章[devexpress如何在PropertyGridControl中直接编辑集合成员](/2021/09/26/devexpress如何在PropertyGridControl中直接编辑集合成员/)的影响，`FieldName`发生了变化，此处根据`PropertyDescriptor`的逻辑生成了`FieldName`。
 
 ![hide dic row](/img/dev_PropertyGridControl_hideDicRow.png)
 
