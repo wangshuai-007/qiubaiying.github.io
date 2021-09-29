@@ -28,7 +28,9 @@ typora-root-url: ..
 
 官方并没有针对这个问题提供简单的解决方案,但是它有[CustomDrawRowValueCell](https://docs.devexpress.com/WindowsForms/DevExpress.XtraVerticalGrid.VGridControlBase.CustomDrawRowValueCell)事件
 
-所以,问题就比较简单了;只需要手动隐藏指定字段的编辑框即可
+这个事件可以自定义Editor
+
+所以,问题就比较简单了;只需要不绘制Cell即可达到隐藏控件的目的
 
 ```c#
 private void PropertyGridControl1_CustomDrawRowValueCell(object sender, DevExpress.XtraVerticalGrid.Events.CustomDrawRowValueCellEventArgs e)
@@ -36,7 +38,7 @@ private void PropertyGridControl1_CustomDrawRowValueCell(object sender, DevExpre
     if(e.Row.Properties.FieldName== nameof(Student.ListCourses))
     {
         e.Properties.AllowEdit = false;//解决点击编辑框位置时Editor出现的问题
-        e.Handled = true;
+        e.Handled = true;//不执行绘制操作即可隐藏编辑器
     }
 }
 ```
