@@ -65,7 +65,17 @@ private void Form1_Load(object sender, EventArgs e)
 }
 ```
 
-编译好后打开生成的exe文件，打开之前导出的repx文件，这样就有了报表编辑功能
+##### 3.界面效果
+
+编译好后打开生成的exe文件，打开之前导出的repx文件，这样就有了报表编辑功能，界面如图所示：
+
+![report](/img/devexpress_DevReportDesigner_v18.1.4.0.png)
+
+此设计器已发布，下载地址：[DevReportDesigner_v18.1.4.0](https://github.com/wangshuai-007/BlogsSample/releases/tag/DevReportDesigner_v18.1.4.0)
+
+对于repx文件，`右键`→`打开方式`→`在这台电脑上查找其它应用`→`选择DevReportDesigner.exe`
+
+
 
 如果要直接使用repx文件打印出报表，请参考官方文章：
 
@@ -79,6 +89,6 @@ private void Form1_Load(object sender, EventArgs e)
 
 * [https://docs.devexpress.com/XtraReports/2666/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/store-report-layouts-and-documents/load-report-layouts](https://docs.devexpress.com/XtraReports/2666/detailed-guide-to-devexpress-reporting/store-and-distribute-reports/store-report-layouts-and-documents/load-report-layouts)
 * [https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.ReportDesignTool.ShowRibbonDesigner](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.ReportDesignTool.ShowRibbonDesigner)
-
 * 设计器demo地址：[https://github.com/wangshuai-007/BlogsSample/tree/master/DevReportDesigner](https://github.com/wangshuai-007/BlogsSample/tree/master/DevReportDesigner)
+* 设计器下载地址：[DevReportDesigner_v18.1.4.0](https://github.com/wangshuai-007/BlogsSample/releases/tag/DevReportDesigner_v18.1.4.0)
 
